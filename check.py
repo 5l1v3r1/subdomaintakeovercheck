@@ -34,7 +34,7 @@ if __name__ == "__main__":
     except:
         print('''
         Usage: 
-            python main.py domainfile.txt
+            python check.py domainfile.txt
         ''')
         sys.exit()
     if os.path.exists("result.txt"):
